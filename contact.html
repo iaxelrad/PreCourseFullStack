@@ -3,54 +3,87 @@
   <head>
     <title>Contact</title>
     <link href="./style.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=ABeeZee"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
   </head>
   <body class="contact">
     <!-- <div class="page-wrapper"> -->
-      <nav >
-        <ul>
-          <li><a href=".\index.html" class="active">Home</a></li>
-          <li><a href=".\about.html">About</a></li>
-          <li><a href=".\contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="container">
-        <h1>Contact Form</h1>
-        <form class = "form" id = "form">
-      
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" name="firstName" placeholder="Your name.." value="" required>
-              <!--Id is for the label and must be the same. name is for backend processing-->
-          <label for="lastName">Last Name</label>
-          <input type="text" id="lastName" name="lastName" placeholder="Your last name..">
-  
-          <label for="email">Email Address </label>
-          <input type="text" id="myemail" name="myemail" placeholder="Your email.." value="" required>
-  
-          <label for="comments" >Comments:</label>
-          <textarea id="comments" name="comments" placeholder="Write something.." style="height:100px" value="" required></textarea>
-  
-          <label for="reasons">Reasons for visit:</label>
-          <select id ="reasons" name="reasons" value = "" required >
-            <option value="">Please Slelct One...</option>
-            <option value = "Pure curiosity">Pure curiosity</option>
-            <option value = "Job Search">Job Search</option>
-            <option value = "Random">Random</option>
-          </select>
-          <input type="submit" value = "submit"  id="submit"> 
-   
-        </form>
-      </div>
-    <!-- </div> -->
-    <footer>     
-      <p id="made-by">vbcx</p>
-			<ul>
+    <nav>
+      <ul>
         <li><a href=".\index.html" class="active">Home</a></li>
         <li><a href=".\about.html">About</a></li>
         <li><a href=".\contact.html">Contact</a></li>
-      </ul>				
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Contact Form</h1>
+      <form class="form" id="form">
+        <label for="firstName">First Name</label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Your name.."
+          value=""
+          required
+        />
+        <!--Id is for the label and must be the same. name is for backend processing-->
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Your last name.."
+        />
+
+        <label for="email">Email Address</label>
+        <input
+          type="text"
+          id="myemail"
+          name="myemail"
+          placeholder="Your email.."
+          value=""
+          required
+        />
+
+        <label for="comments">Comments:</label>
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="Write something.."
+          style="height: 100px"
+          value=""
+          required
+        ></textarea>
+
+        <label for="reasons">Reasons for visit:</label>
+        <select id="reasons" name="reasons" value="" required>
+          <option value="">Please Slelct One...</option>
+          <option value="Pure curiosity">Pure curiosity</option>
+          <option value="Job Search">Job Search</option>
+          <option value="Random">Random</option>
+        </select>
+        <input type="submit" value="submit" id="submit" />
+      </form>
+    </div>
+    <!-- </div> -->
+    <footer>
+      <p id="made-by">vbcx</p>
+      <ul>
+        <li><a href=".\index.html" class="active">Home</a></li>
+        <li><a href=".\about.html">About</a></li>
+        <li><a href=".\contact.html">Contact</a></li>
+      </ul>
     </footer>
-    <div>&#169; Israel Tech Challenge</div>  
+    <div>&#169; Israel Tech Challenge</div>
     <script src="./portfolio.js"></script>
   </body>
+</html>
